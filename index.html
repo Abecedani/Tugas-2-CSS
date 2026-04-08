@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        section { padding-top: 5rem; padding-bottom: 5rem; }
+        .jumbotron { background-color: #e9ecef; padding: 2rem 1rem; border-radius: .3rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ahmad Dani</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="jumbotron text-center mt-5">
+        <img src="assets/images/F1D02410140" alt="Profile" width="200" class="rounded-circle img-thumbnail mb-3">
+        <h1 class="display-4">Halo, Saya Ahmad Dani</h1>
+        <p class="lead">Mahasiswa | Web Developer Enthusiast</p>
+        <hr class="my-4">
+        <div class="alert alert-info d-inline-block" role="alert">
+            Sedang belajar framework Bootstrap di TUGAS 2!
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col"><h2>About Me</h2></div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                    <p>Saya adalah seorang mahasiswa yang antusias dalam mempelajari teknologi baru, khususnya dalam pengembangan web menggunakan HTML, CSS, dan framework modern.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Saat ini saya sedang mendalami penggunaan sistem grid dan komponen UI pada Bootstrap untuk membuat website yang responsif dan menarik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col"><h2>My Projects</h2></div>
+            </div>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1: Dasar HTML</h5>
+                            <p class="card-text">Membuat struktur website statis menggunakan tag dasar HTML5.</p>
+                            <button class="btn btn-primary btn-sm">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2: Bootstrap Grid</h5>
+                            <p class="card-text">Implementasi sistem kolom (col-md) untuk tata letak yang responsif.</p>
+                            <button class="btn btn-warning btn-sm">Sedang Dikerjakan</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3: Form Design</h5>
+                            <p class="card-text">Membuat input text, email, dan password dengan form-control Bootstrap.</p>
+                            <button class="btn btn-danger btn-sm">Pending</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-3 pt-3">
+        <p>Created with <i class="bi bi-heart-fill text-danger"></i> by Ahmad Dani &copy; 2026</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
